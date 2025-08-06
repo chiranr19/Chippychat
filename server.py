@@ -9,7 +9,7 @@ from typing import Optional
 from threading import Lock
 
 # ---------------- Config ----------------
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "apikey")
 MODEL  = "meta-llama/llama-3-8b-instruct"
 OR_URL = "https://openrouter.ai/api/v1/chat/completions"
 
