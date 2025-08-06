@@ -1,0 +1,28 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>ChippyInn Chat POC</title>
+<style>
+body{font:16px/1.4 Arial;margin:40px}
+#log{border:1px solid #ccc;width:360px;height:300px;overflow-y:auto;padding:8px}
+.msg{margin:4px 0;padding:6px;border-radius:8px;max-width:75%}
+.user{background:#0d6efd;color:#fff;margin-left:auto}
+.bot{background:#e9e9e9;color:#000}
+#in{width:360px;padding:6px;margin-top:6px}
+</style>
+</head><body>
+<h2>Chippy Booking Assistant</h2>
+<div id="log"></div>
+<input id="in" placeholder="Ask me..." autocomplete="off">
+<script>
+const log=document.getElementById('log'), inp=document.getElementById('in');
+const SID=crypto.randomUUID(); const API='http://localhost:8000/booking-chat';
+function add(t,c){const d=document.createElement('div');d.className='msg '+c;d.innerText=t;log.append(d);log.scrollTop=log.scrollHeight;}
+inp.addEventListener('keydown',e=>{
+  if(e.key!=='Enter'||!inp.value.trim())return;
+  const q=inp.value.trim();inp.value='';add(q,'user');
+  fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:q,sessionId:SID})})
+    .then(r=>r.json()).then(j=>add(j.reply,'bot')).catch(()=>add('Server error','bot'));
+});
+</script>
+</body></html>
