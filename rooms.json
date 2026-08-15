@@ -1,0 +1,398 @@
+[
+  {
+    "id": 1,
+    "type": "Suite",
+    "name": "Suite #1 - ChippyInn",
+    "location": "Chennai",
+    "price": 1388,
+    "guests": 2,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "Kitchen",
+      "WiFi"
+    ],
+    "available": true,
+    "description": "Comfortable suite for leisure and business travelers. Located in Chennai."
+  },
+  {
+    "id": 2,
+    "type": "Apartment",
+    "name": "Apartment #2 - ChippyInn",
+    "location": "Madurai",
+    "price": 1521,
+    "guests": 3,
+    "bedrooms": 2,
+    "amenities": [
+      "AC",
+      "Kitchen",
+      "WiFi"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Madurai."
+  },
+  {
+    "id": 3,
+    "type": "Apartment",
+    "name": "Apartment #3 - ChippyInn",
+    "location": "Chennai",
+    "price": 3214,
+    "guests": 4,
+    "bedrooms": 2,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": true,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Chennai."
+  },
+  {
+    "id": 4,
+    "type": "Apartment",
+    "name": "Apartment #4 - ChippyInn",
+    "location": "Coimbatore",
+    "price": 3274,
+    "guests": 2,
+    "bedrooms": 2,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV",
+      "Breakfast"
+    ],
+    "available": true,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Coimbatore."
+  },
+  {
+    "id": 5,
+    "type": "Apartment",
+    "name": "Apartment #5 - ChippyInn",
+    "location": "Tirunelveli",
+    "price": 3171,
+    "guests": 1,
+    "bedrooms": 2,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Tirunelveli."
+  },
+  {
+    "id": 6,
+    "type": "Apartment",
+    "name": "Apartment #6 - ChippyInn",
+    "location": "Madurai",
+    "price": 1919,
+    "guests": 4,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV",
+      "Breakfast"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Madurai."
+  },
+  {
+    "id": 7,
+    "type": "Apartment",
+    "name": "Apartment #7 - ChippyInn",
+    "location": "Coimbatore",
+    "price": 3370,
+    "guests": 4,
+    "bedrooms": 2,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV"
+    ],
+    "available": true,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Coimbatore."
+  },
+  {
+    "id": 8,
+    "type": "Suite",
+    "name": "Suite #8 - ChippyInn",
+    "location": "Chennai",
+    "price": 3016,
+    "guests": 2,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV",
+      "Breakfast"
+    ],
+    "available": true,
+    "description": "Comfortable suite for leisure and business travelers. Located in Chennai."
+  },
+  {
+    "id": 9,
+    "type": "Suite",
+    "name": "Suite #9 - ChippyInn",
+    "location": "Madurai",
+    "price": 3426,
+    "guests": 4,
+    "bedrooms": 1,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": false,
+    "description": "Comfortable suite for leisure and business travelers. Located in Madurai."
+  },
+  {
+    "id": 10,
+    "type": "Apartment",
+    "name": "Apartment #10 - ChippyInn",
+    "location": "Tirunelveli",
+    "price": 1852,
+    "guests": 4,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV",
+      "Breakfast"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Tirunelveli."
+  },
+  {
+    "id": 11,
+    "type": "Suite",
+    "name": "Suite #11 - ChippyInn",
+    "location": "Madurai",
+    "price": 1414,
+    "guests": 2,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV"
+    ],
+    "available": false,
+    "description": "Comfortable suite for leisure and business travelers. Located in Madurai."
+  },
+  {
+    "id": 12,
+    "type": "Suite",
+    "name": "Suite #12 - ChippyInn",
+    "location": "Coimbatore",
+    "price": 1673,
+    "guests": 4,
+    "bedrooms": 1,
+    "amenities": [
+      "WiFi",
+      "TV"
+    ],
+    "available": true,
+    "description": "Comfortable suite for leisure and business travelers. Located in Coimbatore."
+  },
+  {
+    "id": 13,
+    "type": "Apartment",
+    "name": "Apartment #13 - ChippyInn",
+    "location": "Salem",
+    "price": 2226,
+    "guests": 2,
+    "bedrooms": 2,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Salem."
+  },
+  {
+    "id": 14,
+    "type": "Apartment",
+    "name": "Apartment #14 - ChippyInn",
+    "location": "Salem",
+    "price": 2271,
+    "guests": 4,
+    "bedrooms": 1,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Salem."
+  },
+  {
+    "id": 15,
+    "type": "Suite",
+    "name": "Suite #15 - ChippyInn",
+    "location": "Chennai",
+    "price": 2263,
+    "guests": 2,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "Kitchen",
+      "WiFi"
+    ],
+    "available": false,
+    "description": "Comfortable suite for leisure and business travelers. Located in Chennai."
+  },
+  {
+    "id": 16,
+    "type": "Apartment",
+    "name": "Apartment #16 - ChippyInn",
+    "location": "Chennai",
+    "price": 1387,
+    "guests": 1,
+    "bedrooms": 2,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV"
+    ],
+    "available": true,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Chennai."
+  },
+  {
+    "id": 17,
+    "type": "Apartment",
+    "name": "Apartment #17 - ChippyInn",
+    "location": "Salem",
+    "price": 2947,
+    "guests": 1,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Salem."
+  },
+  {
+    "id": 18,
+    "type": "Suite",
+    "name": "Suite #18 - ChippyInn",
+    "location": "Salem",
+    "price": 2994,
+    "guests": 1,
+    "bedrooms": 1,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": false,
+    "description": "Comfortable suite for leisure and business travelers. Located in Salem."
+  },
+  {
+    "id": 19,
+    "type": "Apartment",
+    "name": "Apartment #19 - ChippyInn",
+    "location": "Chennai",
+    "price": 1233,
+    "guests": 1,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "WiFi",
+      "TV",
+      "Breakfast"
+    ],
+    "available": true,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Chennai."
+  },
+  {
+    "id": 20,
+    "type": "Apartment",
+    "name": "Apartment #20 - ChippyInn",
+    "location": "Coimbatore",
+    "price": 3080,
+    "guests": 1,
+    "bedrooms": 2,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Coimbatore."
+  },
+  {
+    "id": 21,
+    "type": "Suite",
+    "name": "Suite #21 - ChippyInn",
+    "location": "Tirunelveli",
+    "price": 2576,
+    "guests": 1,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "Kitchen",
+      "WiFi"
+    ],
+    "available": true,
+    "description": "Comfortable suite for leisure and business travelers. Located in Tirunelveli."
+  },
+  {
+    "id": 22,
+    "type": "Suite",
+    "name": "Suite #22 - ChippyInn",
+    "location": "Madurai",
+    "price": 3006,
+    "guests": 2,
+    "bedrooms": 1,
+    "amenities": [
+      "AC",
+      "Kitchen",
+      "WiFi"
+    ],
+    "available": false,
+    "description": "Comfortable suite for leisure and business travelers. Located in Madurai."
+  },
+  {
+    "id": 23,
+    "type": "Apartment",
+    "name": "Apartment #23 - ChippyInn",
+    "location": "Coimbatore",
+    "price": 2323,
+    "guests": 4,
+    "bedrooms": 2,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": true,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Coimbatore."
+  },
+  {
+    "id": 24,
+    "type": "Apartment",
+    "name": "Apartment #24 - ChippyInn",
+    "location": "Madurai",
+    "price": 3339,
+    "guests": 1,
+    "bedrooms": 2,
+    "amenities": [
+      "Fan",
+      "TV"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Madurai."
+  },
+  {
+    "id": 25,
+    "type": "Apartment",
+    "name": "Apartment #25 - ChippyInn",
+    "location": "Chennai",
+    "price": 2103,
+    "guests": 2,
+    "bedrooms": 2,
+    "amenities": [
+      "AC",
+      "Kitchen",
+      "WiFi"
+    ],
+    "available": false,
+    "description": "Well-furnished apartment ideal for short and long stays. Located in Chennai."
+  }
+]

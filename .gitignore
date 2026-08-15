@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets — never commit these
+.env
+*.env
+api key*.txt
+*_api_key.txt
+openrouter_api_key.txt
+
+# Meilisearch runtime
+meilisearch
+data.ms/
+install.sh
+
+# OS
+.DS_Store

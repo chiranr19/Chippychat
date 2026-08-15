@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChippyInn Chat</title>
+  <!-- Tailwind + DaisyUI -->
+  <script src="https://cdn.tailwindcss.com/3.4.4"></script>
+  <script>
+    tailwind.config = { plugins: [daisyui] };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.js"></script>
+  <style>
+    /* fixed chat widget */
+    #chat-toggle{
+      position:fixed;bottom:20px;right:20px;
+      background:#ff5a5f;color:#fff;padding:10px 14px;border-radius:25px;
+      font-weight:700;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.25);z-index:1000;
+    }
+    #chatbot{
+      position:fixed;bottom:20px;right:20px;width:320px;max-height:460px;
+      background:#fff;border:1px solid #ccc;border-radius:10px;display:flex;flex-direction:column;
+      box-shadow:0 4px 12px rgba(0,0,0,.3);z-index:1000;
+    }
+    #chatbot.hidden{display:none;}
+    #chat-header{
+      background:#ff5a5f;color:#fff;padding:8px 12px;border-top-left-radius:10px;border-top-right-radius:10px;
+      display:flex;justify-content:space-between;align-items:center;font-weight:600;
+    }
+    #chat-body{padding:10px;flex:1;overflow-y:auto;background:#f7f7f7;}
+    .message{white-space:pre-wrap;margin:4px 0;padding:8px 10px;border-radius:6px;max-width:80%;}
+    .bot{background:#e5e5e5;text-align:left;}
+    .user{background:#d4f0ff;margin-left:auto;text-align:right;}
+    #chat-input-area{display:flex;border-top:1px solid #ccc;}
+    #chat-input-area input{flex:1;border:0;padding:8px;border-bottom-left-radius:10px;}
+    #chat-input-area input:focus{outline:none;}
+    #send-btn{background:#ff5a5f;border:0;color:#fff;padding:0 14px;cursor:pointer;border-bottom-right-radius:10px;}
+    #send-btn:focus{outline:none;}
+  </style>
+</head>
+<body>
+
+<div id="chat-toggle">💬 Chat</div>
+
+<div id="chatbot" class="hidden">
+  <div id="chat-header">
+    <span>Booking Assistant</span>
+    <button id="minimize-btn" style="background:#ff5a5f;border:none;color:#fff;font-size:18px;cursor:pointer;">_</button>
+  </div>
+  <div id="chat-body">
+    <div class="message bot">
+      Hi! Ask me anything – e.g. "Need a room for four guests next weekend in Chennai". I’ll understand 😊
+    </div>
+  </div>
+  <div id="chat-input-area">
+    <input type="text" id="chat-input" placeholder="Type your message…" />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<!-- NEW (served from /static) -->
+<script type="module" src="/static/script.js"></script>
+
+</body>
+</html>
