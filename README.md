@@ -6,7 +6,7 @@
 ![Flask](https://img.shields.io/badge/Flask-2.3-000000?logo=flask&logoColor=white)
 ![Llama 3](https://img.shields.io/badge/Llama_3-via_OpenRouter-FF6F00)
 ![Meilisearch](https://img.shields.io/badge/Meilisearch-optional-FF5CAA?logo=meilisearch&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/license-proprietary-F6465D)
 
 A conversational hotel-room booking assistant. It parses natural-language requests
 ("a room in Chennai for 2 guests, Aug 20 to 23, under ₹1500"), keeps per-session
@@ -80,4 +80,4 @@ On startup the server prints which backend it selected.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+**Proprietary — All Rights Reserved.** Source-available for viewing only; not open source. No use, copy, or reuse without written permission. See [LICENSE](LICENSE).
