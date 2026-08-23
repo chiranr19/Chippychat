@@ -1,3 +1,4 @@
+# ✦ @chiranr19 · © 2026 All Rights Reserved · proprietary · sigil:6YHJBKOPVJCGNOAX
 """
 server.py – ChippyInn Booking Bot
  • Keeps per-session memory (no more repetitive questions)

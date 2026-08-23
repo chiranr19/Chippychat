@@ -1,0 +1,18 @@
+░▒▓█  C H I R A N R 1 9  █▓▒░
+╔═╗┬ ┬┬┬─┐┌─┐┌┐┌┬─┐
+║  ├─┤│├┬┘├─┤│││├┬┘   crafted by @chiranr19
+╚═╝┴ ┴┴┴└─┴ ┴┘└┘┴└─   © 2026 · All Rights Reserved
+
+  "Chippychat" is proprietary. Source-available for viewing only — not open source.
+  See LICENSE. No use, copy, or reuse without written permission.
+
+┈┉┈ p̷r̴o̶v̸e̷n̴a̸n̷c̶e̸ ┈┉┈
+
+  authorship sigil ▸ 6YHJ·BKOP·VJCG·NOAX
+
+  This is a cryptographic authorship mark, derived as
+      base32( SHA256( <private-secret> : "Chippychat" : "chiranr19" ) )[:16]
+  from a secret known only to @chiranr19. To prove authorship, the secret is
+  revealed and the value recomputed — only its holder can produce it, and this
+  repository's git history records when it was planted. Any verbatim copy
+  carries this mark; searching for the sigil surfaces stolen copies.

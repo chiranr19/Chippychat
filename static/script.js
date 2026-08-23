@@ -1,3 +1,4 @@
+// ✦ @chiranr19 · © 2026 All Rights Reserved · proprietary · sigil:6YHJBKOPVJCGNOAX
 
 /* chat.js – streamlined, passes sessionId to server */
 const chatToggle  = document.getElementById('chat-toggle');
